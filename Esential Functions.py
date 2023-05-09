@@ -12,7 +12,8 @@ def scan_directory(directory):
             files.append(file_path)
     return files
 
-#Sorts files by their appropirate file extentions- Adrian
+
+# Sorts files by their appropirate file extentions- Adrian
 
 def sort_files(files):
     sorted_files = {}
@@ -23,7 +24,8 @@ def sort_files(files):
         sorted_files[file_extension].append(file)
     return sorted_files
 
-#Creates subdirectories for differnet types of files- Adrian
+
+# Creates subdirectories for different types of files- Adrian
 
 def create_subdirectories(directory, extensions):
     for extension in extensions:
@@ -31,7 +33,8 @@ def create_subdirectories(directory, extensions):
         if not os.path.exists(subdirectory):
             os.makedirs(subdirectory)
 
-#Move files to appropriate subdirectories based on their file extensions- Adrian
+
+# Move files to appropriate subdirectories based on their file extensions- Adrian
 
 def move_files(sorted_files, directory):
     for extension, files in sorted_files.items():
@@ -43,6 +46,7 @@ def move_files(sorted_files, directory):
                 print(f"Moved {file} to {destination}")
             except Exception as e:
                 print(f"Failed to move {file}: {str(e)}")
+
 
 # Enter the Path to the directory you want sorted- Adrian
 directory_path = "/path/to/directory"
@@ -58,4 +62,3 @@ create_subdirectories(directory_path, sorted_files.keys())
 
 # Move files to appropriate subdirectories- Adrian
 move_files(sorted_files, directory_path)
-
