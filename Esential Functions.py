@@ -49,6 +49,7 @@ def move_files(sorted_files, directory):
 
 
 # Enter the Path to the directory you want sorted- Adrian
+
 directory_path = "/path/to/directory"
 
 # Scan directory for files- Adrian
