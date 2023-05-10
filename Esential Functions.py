@@ -2,6 +2,7 @@ import os
 import shutil
 
 
+
 # Scans Directories for  files and returns list of file paths found in directory - Adrian
 
 def scan_directory(directory):
