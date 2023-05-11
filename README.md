@@ -1,5 +1,5 @@
 # Python-Final-
-We have decided to create a program that automatically sorts any file on your system.
+**We have decided to create a program that automatically sorts any file on your system.**
 _______________________________________________________________________________________________________
 This is the process it takes for the essential functions...
 
