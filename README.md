@@ -1,7 +1,7 @@
 # Python-Final-
 **We have decided to create a program that automatically sorts any file on your system.**
 _______________________________________________________________________________________________________
-This is the process it takes for the essential functions...
+**This is the process it takes for the essential functions...**
 
 1.Scans Directories for files and returns list of file paths found in directory
 
@@ -11,7 +11,7 @@ This is the process it takes for the essential functions...
 
 4.Move files to appropriate subdirectories based on their file extensions
 ________________________________________________________________________________________________________
-Special functionalities it has is...
+**Special functionalities it has is...**
 
 1.Renames a file
 
@@ -19,7 +19,7 @@ Special functionalities it has is...
 
 3.Set up logging
 ________________________________________________________________________________________________________
-To use our program all you have to do is
+**To use our program all you have to do is**
     
 1.Open the python program
 
